@@ -1,4 +1,4 @@
-FRDM node:carbon
+FROM node:carbon
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npminstall 
